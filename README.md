@@ -1,5 +1,7 @@
 # CalculadoraJava
+
 [Vídeo Tutorial Base](https://youtu.be/jQo6n-i6wpo?si=YpuVRe8b9S5_pLOJ)
+Kenny Yip Coding
 
 ## Sobre
 
