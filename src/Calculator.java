@@ -146,6 +146,16 @@ public class Calculator {
                                 displayLabel.setText(displayLabel.getText() + buttonValue);
                             }
                         }
+                        else if (buttonValue == "√"){
+                            double numDisplay = Double.parseDouble(displayLabel.getText());
+                            if(numDisplay > 0) {
+                                numDisplay = Math.pow(numDisplay, 0.5);
+                                displayLabel.setText(removeZeroDecimal(numDisplay));
+                            }
+                            else {
+                                displayLabel.setText("Error");
+                            }
+                        }
 
                     }
                 }
